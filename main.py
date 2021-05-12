@@ -16,7 +16,7 @@ from string import ascii_lowercase
 from random import choice
 from time import strftime,gmtime
 
-bot = telebot.TeleBot('bot-tokeni')
+bot = telebot.TeleBot('1716425416:AAEUCQoxfsoFDRqDBIYbP_nF3_h2vaAmxMM')
 
 def grs():
     result_str = ''.join(choice(ascii_lowercase) for i in range(5))
